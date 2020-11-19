@@ -5,7 +5,7 @@
 ### Paths #################################################
 
 # Point to the path of your applications code on your host
-APP_CODE_PATH_HOST=../
+APP_CODE_PATH_HOST=../melpit
 
 # Point to where the `APP_CODE_PATH_HOST` should be in the container
 APP_CODE_PATH_CONTAINER=/var/www
@@ -96,7 +96,7 @@ WORKSPACE_COMPOSER_AUTH=false
 WORKSPACE_COMPOSER_REPO_PACKAGIST=
 WORKSPACE_NVM_NODEJS_ORG_MIRROR=
 WORKSPACE_INSTALL_NODE=true
-WORKSPACE_NODE_VERSION=node
+WORKSPACE_NODE_VERSION=v12.18.4
 WORKSPACE_NPM_REGISTRY=
 WORKSPACE_INSTALL_PNPM=false
 WORKSPACE_INSTALL_YARN=true
@@ -304,7 +304,7 @@ APACHE_DOCUMENT_ROOT=/var/www/
 
 ### MYSQL #################################################
 
-MYSQL_VERSION=latest
+MYSQL_VERSION=8.0.21
 MYSQL_DATABASE=default
 MYSQL_USER=default
 MYSQL_PASSWORD=secret
